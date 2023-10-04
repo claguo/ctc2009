@@ -62,7 +62,7 @@ useEffect(() => {
   return (
     <>
     <div style={{margin:'16rem 4rem 2rem'}}>INTERACTION</div>
-    <div style={{gap: '2%', display: 'flex', flexDirection: '', flexWrap: 'nowrap', justifyContent: 'center', height: '80vh', marginBottom: '4rem'}}>
+    <div style={{gap: '2%', display: 'flex', flexDirection: '', flexWrap: 'nowrap', justifyContent: 'center', marginBottom: '4rem'}}>
 
     <div id="container" style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', width: `30vw`, maxHeight: '80vh', overflow: 'hidden', alignItems:'center', gap: '1px', border: '1px solid hsl(168, 6%, 89%)', borderRadius: '6px'}}>
     {cellArray2.map((cellObj, index) => (
