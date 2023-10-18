@@ -9,7 +9,6 @@ const hsl = `hsl(${hue}, 100%, ${light}%)`
 const [cellArray2, setCellArray2] = useState(Array.from({ length: 576 }, (_, index) => ({isHovered: false, isClicked: false, hsl: 'hsl(171, 3%, 95%'})));
 
 const [cellSize, setCellSize] = useState(0)
-let cellsPerRow=42
 
 const handleMouseEnter = (index) => {
   const updatedCellArray2 = [...cellArray2];

@@ -25,7 +25,6 @@ function Repetition1() {
     //   updatedCellArray[i+1].isClicked = true;
     // }
     const plus = [1, -1, 20, -20];
-    const corners = [41, 43, -41, -43];
 
 
     // for (const offset of corners) {
