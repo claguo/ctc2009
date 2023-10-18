@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Fish from "../components/mapping/Fish";
-import FishMaker from "../components/mapping/FishMaker";
-import Interaction from "../components/Interaction";
+import ForMachine from "../components/ForMachine";
 
 function Home() {
   return (
@@ -10,9 +8,10 @@ function Home() {
     <div style={{margin: '2rem'}}>
       <Link className='button' to='/ctc2009/indeterminacy'>indeterminacy</Link>
       <Link className='button' to='/ctc2009/repetition'>repetition</Link>
+      <Link className='button' to='/ctc2009/mapping'>mapping</Link>
+      <Link className='button' to='/ctc2009/interaction'>interaction</Link>
     </div>
-    <FishMaker />
-    <Interaction />
+    <ForMachine/>
     </>
   )
 }
