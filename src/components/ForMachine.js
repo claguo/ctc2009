@@ -32,7 +32,7 @@ function ForMachine() {
     return sections.map((s, index) => {
       const codePoint = parseInt(s, 16);
       if (!isNaN(codePoint)) {
-        return <div key={index}>{String.fromCodePoint(codePoint)}</div>;
+        return <h1 style={{display: 'inline-block'}} key={index}>{String.fromCodePoint(codePoint)}&nbsp;</h1>;
       }
       return null;
     });
@@ -56,7 +56,7 @@ function ForMachine() {
           <div key={index}>{escapeUnicode(s)}</div>
         ))} */}
         {/* <div>{escapeUnicode(formData.input)}</div> */}
-        <div>{newhexcode}</div>
+        <h1>{newhexcode}</h1>
 
         <label>
           hexcode to text
